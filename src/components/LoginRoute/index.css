@@ -1,0 +1,234 @@
+.Login_Empty {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+@media screen and (max-width: 750px) {
+  .large-screen-login-headings {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .mobile-screen-login-heading {
+    display: none;
+  }
+  .Login_Empty {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+  }
+  .mobile-screen-image {
+    display: none;
+  }
+  .extra-large-container {
+    width: 456px;
+    height: 523px;
+    left: 165px;
+    top: 250px;
+    background: #fefeff;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 168px;
+    margin-right: 114px;
+  }
+  .form {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-label-container {
+    width: 360px;
+  }
+  .login-button {
+    margin-right: 70px;
+  }
+  .large-screen-login-headings {
+    width: 80px;
+    height: 40px;
+    left: 353px;
+    top: 405px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #0f172a;
+  }
+}
+
+.mobile-screen-div {
+  display: flex;
+  height: 50%;
+}
+.mobile-screen-image {
+  width: 304px;
+  margin-left: 56px;
+}
+.mobile-screen-login-heading {
+  align-self: flex-end;
+  width: 60px;
+  height: 32px;
+  left: 24px;
+  top: 296px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  padding-left: 20px;
+  color: #0f172a;
+}
+.input-label-container {
+  width: 85%;
+  height: 64px;
+  margin-bottom: 24px;
+}
+.form {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 48px;
+}
+.label-name {
+  width: 66px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 8px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+
+  /* Light / blue-gray / 600 */
+
+  color: #475569;
+}
+.input {
+  outline: none;
+  height: 40px;
+  left: 0%;
+  right: 0%;
+  top: 24px;
+  width: 312px;
+  /* Light / blue-gray / 200 */
+  border: none;
+  background: #e2e8f0;
+  border-radius: 2px;
+
+  /* Product - Paragraph ∙ 14|24 / Regular */
+}
+#username::-webkit-input-placeholder {
+  width: 71px;
+  height: 24px;
+  padding-left: 16px;
+  top: 32px;
+
+  /* Product - Paragraph ∙ 14|24 / Regular */
+
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* Grey/60 */
+
+  color: rgba(126, 133, 142, 0.6);
+}
+input[type='text'] {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 16px;
+  top: 32px;
+
+  color: #171f46;
+}
+input[type='password'] {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 16px;
+  top: 32px;
+
+  color: #171f46;
+}
+.login-button {
+  bottom: 0px;
+  width: 312px;
+  height: 48px;
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  cursor: pointer;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 760px) {
+  .tasty-kitchens-heading {
+    height: 32px;
+    left: 21.32%;
+    right: 66.74%;
+    top: calc(50% - 32px / 2 - 155px);
+
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    color: #f7931e;
+  }
+  .vector {
+    left: 3.77%;
+    right: 3.77%;
+    top: 4.65%;
+    bottom: 4.65%;
+  }
+  .mobile-screen-div {
+    display: none;
+  }
+  .extra-large-image {
+    width: 705px;
+    height: 1024px;
+    top: 0px;
+  }
+}
