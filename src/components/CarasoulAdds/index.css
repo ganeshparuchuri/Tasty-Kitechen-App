@@ -1,0 +1,12 @@
+.image-carosel {
+  width: 360px;
+  height: 183px;
+}
+@media screen and (min-width: 760px) {
+  .image-carosel {
+    width: 1110px;
+    height: 307px;
+    margin-right: 165px;
+    margin-left: 164px;
+  }
+}
