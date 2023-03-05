@@ -10,6 +10,15 @@
   .large-screen-login-headings {
     display: none;
   }
+  .tasty-kitchens-heading {
+    display: none;
+  }
+  .vector {
+    display: none;
+  }
+  .extra-large-image {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 760px) {
@@ -43,6 +52,8 @@
     justify-content: center;
     margin-left: 168px;
     margin-right: 114px;
+    margin-top: 250px;
+    margin-bottom: 251px;
   }
   .form {
     width: 360px;
@@ -231,4 +242,18 @@ input[type='password'] {
     height: 1024px;
     top: 0px;
   }
+  .errormsg {
+    margin-right: 135px;
+  }
+}
+.errormsg {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* Light / red / 500 */
+  margin-right: 50px;
+  color: #ef4444;
 }

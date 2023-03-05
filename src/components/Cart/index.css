@@ -1,0 +1,243 @@
+.cartList-container {
+  list-style-type: none;
+  margin-top: 32px;
+  position: relative;
+}
+
+@media screen and (min-width: 760px) {
+  .cartList-container {
+    width: 1110px;
+    left: 167px;
+    margin-top: 48px;
+    background: #f9fbfe;
+    border: 1px solid rgba(11, 105, 255, 0.1);
+  }
+}
+.cart-list {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 760px) {
+  .cart-list {
+    justify-content: space-between;
+  }
+}
+.cart-image {
+  height: 90px;
+  width: 136px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 760px) {
+  .cart-image {
+    margin-left: 48px;
+  }
+}
+
+.cart-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+
+  letter-spacing: 0.2px;
+  color: #183b56;
+}
+.cart-item-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffa412;
+}
+.cart-items-line {
+  border: 1px dashed #cbd2d9;
+  margin-right: 24px;
+}
+.order-total {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e4c59;
+}
+.total {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e4c59;
+  margin-left: 110px;
+  margin-right: 24px;
+}
+.place-order-btn {
+  width: 99px;
+  height: 32px;
+  background: #f7931e;
+  border-radius: 8px;
+  flex: none;
+  color: #ffffff;
+  border: none;
+  margin-left: 200px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 760px) {
+  .item-quantity-price-container {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .responsive-cart-container {
+    display: flex;
+  }
+  .cart-item-name {
+    font-size: 20px;
+    max-width: 135px;
+    margin-right: 150px;
+    min-width: 120px;
+  }
+  .cart-item-cost {
+    margin-right: 100px;
+    margin-left: 315px;
+  }
+  .place-order-btn {
+    margin-left: 950px;
+    margin-bottom: 48px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .item-quantity-price-container {
+    display: none;
+  }
+}
+.item-quantity-price-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #475569;
+}
+.empty-cart-container {
+  margin-top: 78px;
+  margin-bottom: 143px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+@media screen and (min-width: 760px) {
+  .empty-cart-container {
+    margin-top: 142px;
+    margin-right: 508px;
+    margin-left: 508px;
+    margin-bottom: 289px;
+  }
+}
+.no-orders-yet {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+}
+.cart-is-empty {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+}
+.ordernow-button {
+  width: 93px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+  background: #f7931e;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-left: 68px;
+  margin-right: 68px;
+}
+@media screen and (min-width: 760px) {
+  .no-orders-yet {
+    width: 219px;
+  }
+  .cart-is-empty {
+    max-width: 250px;
+    text-align: center;
+  }
+}
+.payment-success-container {
+  margin: 96px 24px 96px 24px;
+}
+@media screen and (min-width: 760px) {
+  .payment-success-container {
+    margin: 228px 447px 324px 447px;
+  }
+}
+.Payment-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}
+.payment-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 500 */
+
+  color: #64748b;
+}
+.payment-btn {
+  width: 131px;
+  height: 32px;
+  border: none;
+  color: #ffffff;
+  background: #f7931e;
+  border-radius: 8px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.success-image {
+  margin: 52px 136px 28px 136px;
+}
+@media screen and (min-width: 760px) {
+  .Payment-heading {
+    margin-left: 158px;
+    margin-right: 158px;
+  }
+  .success-image {
+    margin: 56px 241px 40px 241px;
+  }
+  .payment-btn {
+    margin-left: 207px;
+    max-width: 207px;
+  }
+}

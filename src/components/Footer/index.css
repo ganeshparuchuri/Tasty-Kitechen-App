@@ -1,0 +1,88 @@
+.footer-container {
+  height: 256px;
+  width: 360px;
+
+  border-radius: 0px;
+  background: #0f172a;
+}
+
+.footer-tasty-kitchen {
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 135px;
+  margin-right: 80px;
+  /* identical to box height, or 120% */
+  margin-top: 52px;
+  color: #ffffff;
+}
+.footerdescription {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
+
+  color: #ffffff;
+}
+@media screen and (min-width: 760px) {
+  .footer-container {
+    height: 424px;
+    width: 1440px;
+  }
+  .footer-tasty-kitchen {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #ffffff;
+    margin-left: 640px;
+    margin-right: 571px;
+  }
+  .footerdescription {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 480px;
+    margin-right: 480px;
+  }
+}
+.footer-icons {
+  color: #ffffff;
+  height: 20px;
+  width: 20px;
+  margin-right: 25px;
+}
+.footer-icons-container {
+  margin-left: 98px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+@media screen and (min-width: 760px) {
+  .footer-icons {
+    height: 40px;
+    width: 40px;
+    left: 4px;
+    top: 4px;
+    border-radius: 0px;
+    margin-right: 37px;
+  }
+  .footer-icons-container {
+    margin-left: 580px;
+    margin-right: 550px;
+    margin-bottom: 100px;
+  }
+}
+.footer-testy-kitchen-image-logo {
+}

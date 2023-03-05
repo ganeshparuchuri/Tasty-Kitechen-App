@@ -17,7 +17,7 @@ const ReactSlider = props => {
     <Slider {...settings}>
       {slider.map(e => (
         <div>
-          <img src={e.imageUrl} className="image-carosel" />
+          <img src={e.imageUrl} className="image-carosel" alt="offer" />
         </div>
       ))}
     </Slider>

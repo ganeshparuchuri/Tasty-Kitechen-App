@@ -1,0 +1,85 @@
+.menu-image {
+  height: 100px;
+  width: 160px;
+  border-radius: 5.0196075439453125px;
+}
+.menuitems-container {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-left: 16px;
+}
+@media screen and (min-width: 760px) {
+  .menuitems-container {
+    margin-left: 100px;
+
+    margin-bottom: 32px;
+  }
+  .menu-item-name {
+    max-width: 175px;
+  }
+}
+.custom-cost {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #334155;
+  margin-left: 16px;
+}
+.star {
+  height: 12px;
+  width: 12px;
+  margin-left: 16px;
+  color: rgba(255, 204, 0, 1);
+}
+.custom-rating {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #1e293b;
+}
+.add-button {
+  width: 42.17px;
+  height: 23.59px;
+  border: 1.44828px solid #ffa412;
+  border-radius: 5.7931px;
+  margin-left: 16.91px;
+  background-color: transparent;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* or 133% */
+
+  color: #ffa412;
+  cursor: pointer;
+}
+.add-remove-button-container {
+  display: flex;
+  align-items: center;
+}
+.custom-button {
+  height: 18px;
+  width: 18px;
+  border: 0.75px solid #475569;
+  border-radius: 2.25px;
+  margin-left: 13px;
+  margin-right: 13px;
+  padding: 3px;
+  cursor: pointer;
+}
